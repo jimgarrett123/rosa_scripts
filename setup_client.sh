@@ -7,7 +7,7 @@ read rosaToken
 
 export MY_NAME="$name"
 export ROSA_OCM_TOKEN="$rosaToken"
-export SCOREBOARD_SERVER="http://cs-workshop-scoreboard-server-default.apps.jag-aws.0h6q.p1.openshiftapps.com"
+export SCOREBOARD_SERVER="http://cs-workshop-scoreboard-server-scoreboard-server.apps.jag-aws.87zn.p1.openshiftapps.com"
 
 export ROSA_AWS_ACCESS_KEY_ID=$(aws configure get aws_access_key_id)
 export ROSA_AWS_SECRET_ACCESS_KEY=$(aws configure get aws_secret_access_key)
