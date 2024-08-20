@@ -10,3 +10,7 @@ wget https://mirror.openshift.com/pub/openshift-v4/clients/rosa/latest/rosa-linu
 tar -xvf rosa-linux.tar.gz
 tar -xvf openshift-client-linux.tar.gz
 cd $HOME
+sudo yum install -y yum-utils shadow-utils
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+sudo yum -y install terraform
+git clone https://github.com/openshift-cs/terraform-vpc-example
