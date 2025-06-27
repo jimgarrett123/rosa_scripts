@@ -7,8 +7,11 @@ mkdir $HOME/bin
 cd $HOME/bin
 wget https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/ocp/stable/openshift-client-linux.tar.gz
 wget https://mirror.openshift.com/pub/openshift-v4/clients/rosa/latest/rosa-linux.tar.gz
+wget https://developers.redhat.com/content-gateway/rest/browse/pub/cgw/ocm/latest/ocm_linux_amd64.zip
 tar -xvf rosa-linux.tar.gz
 tar -xvf openshift-client-linux.tar.gz
+unzip ocm_linux_amd64.zip
+mv ocm ~/bin/.
 cd $HOME
 sudo yum install -y yum-utils shadow-utils
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
