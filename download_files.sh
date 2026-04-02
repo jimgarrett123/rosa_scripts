@@ -6,7 +6,7 @@ export SCOREBOARD_SERVER="http://cs-workshop-scoreboard-server-scorecard-server.
 mkdir $HOME/bin
 cd $HOME/bin
 wget https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/ocp/stable/openshift-client-linux.tar.gz
-wget https://mirror.openshift.com/pub/openshift-v4/clients/rosa/latest/rosa-linux.tar.gz
+wget https://mirror.openshift.com/pub/cgw/rosa/latest/rosa-linux.tar.gz
 wget https://developers.redhat.com/content-gateway/rest/browse/pub/cgw/ocm/latest/ocm_linux_amd64.zip
 tar -xvf rosa-linux.tar.gz
 tar -xvf openshift-client-linux.tar.gz
